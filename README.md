@@ -1,4 +1,4 @@
-# Base project for VFX test
+# Тестовое техническое задание по VFX
 
 ### Требования
 - Unity 2020.3.3f
