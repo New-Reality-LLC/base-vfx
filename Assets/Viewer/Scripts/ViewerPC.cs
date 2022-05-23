@@ -54,7 +54,7 @@ namespace PointCloud.Player
         internal void Init(string path)
         {
             Dispose();
-            vfxTexture = new VFXTexture(computeShader,300000);
+            vfxTexture = new VFXTexture(computeShader,600000);
             Processed_Path = path;
             FullPath = Saver.CreatePath_CloudsBinary(Processed_Path);
             files = Saver.Binary_GetFrames(Processed_Path);
@@ -142,7 +142,7 @@ namespace PointCloud.Player
 
             vfx.Reinit();
             if (vfx.HasFloat("Size")) vfx.SetFloat("Size", pointSize);
-            if (vfx.HasUInt("PointCount")) vfx.SetUInt("PointCount", 300000);
+            if (vfx.HasUInt("PointCount")) vfx.SetUInt("PointCount", 600000);
             if (vfx.HasTexture("Position Map")) vfx.SetTexture("Position Map", tex_Cloud);
             if (vfx.HasTexture("Color Map")) vfx.SetTexture("Color Map", tex_Color);
         }
