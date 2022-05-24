@@ -33,7 +33,7 @@ The volumetric video should be placed along the path `AppData\LocalLow\new-reali
 
 ### Instruction
 The project has BaseVFX which provides basic visualization of point cloud. GameObject `CloudPlayer` together with sub-gameobjects `Viewer` and `Audio` are used play a video in a scene `VoluSample.unity`. Visual Effect component is located in the `Viewer`. To launch point cloud playback you should:
--	Make sure that CloudPlayer has Path_Video (a name of a folder with video, i.e. `2021.12.8_Oleg_Head`)
+-	Make sure that CloudPlayer has `Path_Video` (a name of a folder with video, i.e. `2021.12.8_Oleg_Head`)
 -	Click `Init` button in `CloudPlayer` (viewer object should generate correct path to volumetric video in `Full_Path`, then files will emerge in the `Files` folder). Video playback should start automatically. 
 -	If any parameters change you should stop playback: click `Stop`, then `ClearManager` and `Dispose`. After that resume playback by clicking `Init`.
 
