@@ -22,7 +22,7 @@
 
 
 
-# Test assignment for VFX designer job opening
+# Test task for VFX designer job opening
 
 ### Software requirements:
 - Unity 2020.3.3f
