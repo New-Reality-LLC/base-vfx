@@ -6,7 +6,7 @@
 
 Требуется скачать видеофайлы по [ссылке1](https://disk.yandex.ru/d/e1LOa3rzmiyDUQ) и [ссылке2](https://disk.yandex.ru/d/845CF_-AsbSr7w).
 Объёмное видео требуется расположить по пути
-`AppData\LocalLow\new-reality\StreamerClient\CloudsBinary`
+`AppData\LocalLow\DefaultCompany\BaseVFX\CloudsBinary`
 
 ### Инструкция
 В проекте имеется BaseVFX, который отвечает за базовую визуализацию облака.
